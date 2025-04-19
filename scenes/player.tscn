@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://cqp0erp7a08g2" path="res://sprites/red_player01walk.png" id="2_ht72y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ja7hy"]
-size = Vector2(10, 30)
+size = Vector2(7, 15)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yxo2h"]
 atlas = ExtResource("2_ht72y")
@@ -115,12 +115,11 @@ animations = [{
 script = ExtResource("1_qypml")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 1)
+position = Vector2(-0.5, 0.5)
 shape = SubResource("RectangleShape2D_ja7hy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_7c740")
 animation = &"Idle"
 autoplay = "Idle"

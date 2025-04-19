@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1745056996
+icon.svg::CompressedTexture2D::4248275415849079128::1745042560::1745042633::1::::<><>::
+Player_Controller.gd::GDScript::-1::1745042560::0::1::::<>CharacterBody2D<>::
+::res://scenes/::1745046833
+main.tscn::PackedScene::550536151838052008::1745046833::0::1::::<><>::uid://d0eodmdkjhml5::::res://scenes/player.tscn<>uid://pknun68t4w4b::::res://sprites/tilemap_02.png
+player.tscn::PackedScene::8923096683708082700::1745046804::0::1::::<><>::res://Player_Controller.gd<>uid://wkufydn2q3jd::::res://sprites/red_player_spritesheet.png<>uid://cqp0erp7a08g2::::res://sprites/red_player01walk.png
+::res://sprites/::1745042698
+lumberjack.png::CompressedTexture2D::5444552448196530473::1745042560::1745042633::1::::<><>::
+red_player01.png::CompressedTexture2D::1069683999915038365::1745042560::1745042633::1::::<><>::
+red_player01walk.png::CompressedTexture2D::5928354517424371315::1745042560::1745042633::1::::<><>::
+red_player_spritesheet.png::CompressedTexture2D::1566022872224383797::1745042560::1745042633::1::::<><>::
+tilemap_02.png::CompressedTexture2D::1074302201113559851::1745042690::1745042698::1::::<><>::
+tilemap_packed.png::CompressedTexture2D::4266462590965372360::1745042560::1745042633::1::::<><>::
+::res://Terminal Assent Assets/::1745042560
