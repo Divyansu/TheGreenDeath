@@ -1,1 +1,11 @@
+Label
+CanvasLayer
+CollisionShape2D
+Area2D
+Sprite2D
+AnimatedSprite2D
+CharacterBody2D
+RayCast2D
+AnimatableBody2D
 TileMap
+Marker2D

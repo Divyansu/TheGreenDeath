@@ -121,6 +121,5 @@ shape = SubResource("RectangleShape2D_ja7hy")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_7c740")
-animation = &"Idle"
+animation = &"walk"
 autoplay = "Idle"
-frame_progress = 0.333345

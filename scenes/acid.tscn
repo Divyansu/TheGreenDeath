@@ -1,0 +1,154 @@
+[gd_scene load_steps=13 format=3 uid="uid://qd1dmcjia2ep"]
+
+[ext_resource type="Script" path="res://scenes/acid.gd" id="1_1gfxh"]
+[ext_resource type="Texture2D" uid="uid://dlof6nqkty0ve" path="res://sprites/acid.png" id="1_7qp6n"]
+[ext_resource type="Texture2D" uid="uid://cg0j74oul48ol" path="res://sprites/acid_deep.png" id="2_0akgp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7l11j"]
+atlas = ExtResource("1_7qp6n")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2i03g"]
+atlas = ExtResource("1_7qp6n")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3qeos"]
+atlas = ExtResource("1_7qp6n")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x4rfg"]
+atlas = ExtResource("1_7qp6n")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhh2a"]
+atlas = ExtResource("1_7qp6n")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c87sh"]
+atlas = ExtResource("1_7qp6n")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6pxjg"]
+atlas = ExtResource("1_7qp6n")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6fngh"]
+atlas = ExtResource("1_7qp6n")
+region = Rect2(112, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i8xdr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7l11j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2i03g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3qeos")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x4rfg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhh2a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c87sh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6pxjg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6fngh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 6.0
+}]
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_1gfxh")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.553254
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(16, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.54748
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+position = Vector2(32, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.838331
+
+[node name="AnimatedSprite2D8" type="AnimatedSprite2D" parent="."]
+position = Vector2(-96, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.0964897
+
+[node name="AnimatedSprite2D9" type="AnimatedSprite2D" parent="."]
+position = Vector2(96, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.46853
+
+[node name="AnimatedSprite2D10" type="AnimatedSprite2D" parent="."]
+position = Vector2(80, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.910682
+
+[node name="AnimatedSprite2D11" type="AnimatedSprite2D" parent="."]
+position = Vector2(-80, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.0692361
+
+[node name="AnimatedSprite2D12" type="AnimatedSprite2D" parent="."]
+position = Vector2(-64, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.0858497
+
+[node name="AnimatedSprite2D13" type="AnimatedSprite2D" parent="."]
+position = Vector2(-48, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.442992
+
+[node name="AnimatedSprite2D14" type="AnimatedSprite2D" parent="."]
+position = Vector2(-32, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.559897
+
+[node name="AnimatedSprite2D15" type="AnimatedSprite2D" parent="."]
+position = Vector2(-16, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.196902
+
+[node name="AnimatedSprite2D16" type="AnimatedSprite2D" parent="."]
+position = Vector2(64, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.907613
+
+[node name="AnimatedSprite2D17" type="AnimatedSprite2D" parent="."]
+position = Vector2(48, 0)
+sprite_frames = SubResource("SpriteFrames_i8xdr")
+autoplay = "default"
+frame_progress = 0.617324
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 57)
+scale = Vector2(13.08, 6.44)
+texture = ExtResource("2_0akgp")

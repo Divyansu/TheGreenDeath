@@ -1,3 +1,7 @@
 res://scenes/main.tscn
 res://scenes/player.tscn
+res://scenes/platform.tscn
+res://scenes/acid.tscn
 res://Player_Controller.gd
+res://scenes/acid.gd
+res://scenes/killzone.gd

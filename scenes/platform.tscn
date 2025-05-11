@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl4007hxl0vjp"]
+
+[ext_resource type="Texture2D" uid="uid://dxbe05cv812il" path="res://sprites/Wooden Plank.png" id="1_f2v7q"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uuymq"]
+size = Vector2(18, 4)
+
+[node name="Platform" type="AnimatableBody2D"]
+collision_layer = 3
+collision_mask = 6
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(1.00333, 1)
+texture = ExtResource("1_f2v7q")
+region_enabled = true
+region_rect = Rect2(0, 14, 18, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_uuymq")
+one_way_collision = true
