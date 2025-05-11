@@ -1,4 +1,6 @@
 extends CharacterBody2D
+@onready var sfx_jump = $sfx_jump
+@onready var sfx_die = $sfx_die
 
 # Movement
 @export var speed := 100.0
@@ -102,8 +104,10 @@ func _physics_process(delta):
 
 	if Input.is_action_just_pressed("jump"):
 		jump_buffer_timer = jump_buffer_time
+		
 	else:
 		jump_buffer_timer -= delta
+		
 
 	# === Wall Detection & Slide ===
 	wall_dir = is_touching_wall()
@@ -123,6 +127,7 @@ func _physics_process(delta):
 
 	if Input.is_action_just_released("jump") and velocity.y < 0:
 		velocity.y *= decelerate_on_jump_release
+		sfx_jump.play()
 
 	# === Horizontal Movement ===
 	var move_input = Input.get_axis("left", "right")
@@ -164,6 +169,7 @@ func die():
 
 	set_physics_process(false)
 	animated_sprite.play("die")
+	sfx_die.play()
 
 	var canvas = get_tree().current_scene.get_node("CanvasLayer")
 	canvas.get_node("DeathLabel").visible = true
@@ -172,3 +178,10 @@ func die():
 
 	await get_tree().create_timer(2.5).timeout
 	get_tree().reload_current_scene()
+
+func won():
+	var canvas = get_tree().current_scene.get_node("CanvasLayer")
+	canvas.get_node("YouWon").visible = true
+	await get_tree().create_timer(2.5).timeout
+	get_tree().reload_current_scene()
+
