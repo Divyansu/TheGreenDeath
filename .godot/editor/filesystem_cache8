@@ -1,22 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746974901
-export_presets.cfg::TextFile::-1::1746974202::0::1::::<><>::
+::res://::1747477822
+export_presets.cfg::TextFile::-1::1746976526::0::1::::<><>::
 Icon.png::CompressedTexture2D::1185588695257033126::1746974901::1746974901::1::::<><>::
 icon.svg::CompressedTexture2D::4248275415849079128::1745042560::1745042633::1::::<><>::
 PixelOperator8.ttf::FontFile::5337675987110058655::1746962968::1746962989::1::::<><>::
 Player_Controller.gd::GDScript::-1::1746970900::0::1::::<>CharacterBody2D<>::
-::res://scenes/::1746974186
+::res://scenes/::1746976981
 acid.gd::GDScript::-1::1746966257::0::1::::<>Area2D<>::
 acid.tscn::PackedScene::1130799264453791651::1746964454::0::1::::<><>::res://scenes/acid.gd<>uid://dlof6nqkty0ve::::res://sprites/acid.png<>uid://cg0j74oul48ol::::res://sprites/acid_deep.png
 killzone.gd::GDScript::-1::1746961930::0::1::::<>Area2D<>::
-killzone.tscn::PackedScene::7895352476160765510::1746974139::0::1::::<><>::res://scenes/killzone.gd
-main.tscn::PackedScene::550536151838052008::1746974139::0::1::::<><>::uid://d0eodmdkjhml5::::res://scenes/player.tscn<>uid://pknun68t4w4b::::res://sprites/tilemap_02.png<>uid://pk2gqrrvdwss::::res://sounds/Jump B 16-Bit.wav<>uid://b1u64otyxr5va::::res://sounds/hurt.wav<>uid://dl4007hxl0vjp::::res://scenes/platform.tscn<>uid://dkqtki3iwjh1o::::res://scenes/killzone.tscn<>uid://qd1dmcjia2ep::::res://scenes/acid.tscn<>uid://cibu0jw7jt1eh::::res://PixelOperator8.ttf<>res://scenes/winner.gd<>uid://bm3j55os2gasa::::res://sounds/DarkAmbient Odd Circumstance Main.wav
+killzone.tscn::PackedScene::7895352476160765510::1746976952::0::1::::<><>::res://scenes/killzone.gd
+main.tscn::PackedScene::550536151838052008::1746976951::0::1::::<><>::uid://d0eodmdkjhml5::::res://scenes/player.tscn<>uid://pknun68t4w4b::::res://sprites/tilemap_02.png<>uid://pk2gqrrvdwss::::res://sounds/Jump B 16-Bit.wav<>uid://b1u64otyxr5va::::res://sounds/hurt.wav<>uid://dl4007hxl0vjp::::res://scenes/platform.tscn<>uid://dkqtki3iwjh1o::::res://scenes/killzone.tscn<>uid://qd1dmcjia2ep::::res://scenes/acid.tscn<>uid://cibu0jw7jt1eh::::res://PixelOperator8.ttf<>res://scenes/winner.gd<>uid://bm3j55os2gasa::::res://sounds/DarkAmbient Odd Circumstance Main.wav
 main_menu.gd::GDScript::-1::1746973672::0::1::::<>Control<>::
-main_menu.tscn::PackedScene::1755603316511032968::1746974186::0::1::::<><>::res://scenes/main_menu.gd<>uid://cibu0jw7jt1eh::::res://PixelOperator8.ttf
-platform.tscn::PackedScene::7992770548253734061::1746974139::0::1::::<><>::uid://dxbe05cv812il::::res://sprites/Wooden Plank.png
+main_menu.tscn::PackedScene::1755603316511032968::1746976981::0::1::::<><>::res://scenes/main_menu.gd<>uid://cibu0jw7jt1eh::::res://PixelOperator8.ttf
+platform.tscn::PackedScene::7992770548253734061::1746976952::0::1::::<><>::uid://dxbe05cv812il::::res://sprites/Wooden Plank.png
 platform_moving.tscn::PackedScene::7700722875679534840::1746944647::0::1::::<><>::uid://cj36tb251v38m::::res://sprites/platforms.png<>res://scripts/platform_moving.gd
-player.tscn::PackedScene::8923096683708082700::1746974139::0::1::::<><>::res://Player_Controller.gd<>uid://wkufydn2q3jd::::res://sprites/red_player_spritesheet.png<>uid://cqp0erp7a08g2::::res://sprites/red_player01walk.png<>uid://bx8ctxh3266wm::::res://sprites/redplayer_die-Sheet.png
-spikes_roll.tscn::PackedScene::5706083586330892246::1746974139::0::1::::<><>::uid://pknun68t4w4b::::res://sprites/tilemap_02.png
+player.tscn::PackedScene::8923096683708082700::1746976951::0::1::::<><>::res://Player_Controller.gd<>uid://wkufydn2q3jd::::res://sprites/red_player_spritesheet.png<>uid://cqp0erp7a08g2::::res://sprites/red_player01walk.png<>uid://bx8ctxh3266wm::::res://sprites/redplayer_die-Sheet.png
+spikes_roll.tscn::PackedScene::5706083586330892246::1746976952::0::1::::<><>::uid://pknun68t4w4b::::res://sprites/tilemap_02.png
 winner.gd::GDScript::-1::1746968424::0::1::::<>Area2D<>::
 ::res://scripts/::1746359470
 platform_moving.gd::GDScript::-1::1746359470::0::1::::<>AnimatableBody2D<>::
